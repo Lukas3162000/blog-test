@@ -85,3 +85,9 @@ margin-bottom: 12px;
     line-height: 150%;
     letter-spacing: 0px;
 }
+
+#Author-div img{
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+}
