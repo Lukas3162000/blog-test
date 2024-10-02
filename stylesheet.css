@@ -1,10 +1,22 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+}
+
 #card {
     box-sizing: border-box;
     border: 1px solid #111111;
     background-color: #FFFFFF;
     color: #111111;
     width: clamp(327px,30vw,384px);
-    height: clamp(501px,40vh,522px);
+    height: calc(clamp(327px,30vw,384px)*1,532);
     padding: 24px;
     border-radius: 20px;
     box-shadow: 8px 8px 0px #111111;
@@ -50,6 +62,10 @@ margin-bottom: 12px;
     font-size: clamp(20px,2vw,24px);
     margin-bottom: 12px;
     margin-top: 0px;
+}
+
+#Headline:hover{
+    color:#F4D04E;
 }
 
 #text{
